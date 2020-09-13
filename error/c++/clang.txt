@@ -1,0 +1,5 @@
+~$clang main.cpp　だと
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+と返されるので
+~$ clang++-10 main.cpp 
+と入力

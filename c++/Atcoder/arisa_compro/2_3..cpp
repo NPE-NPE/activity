@@ -5,6 +5,7 @@ int main() {
   string S;
   cin >> S;
   
+  //初見コード
   if (S == "yahaa" || S == "yahbb" || S == "yahcc" || S == "yahdd"
       || S == "yahee" || S == "yahff" || S == "yahgg" || S == "yahhh"
       || S == "yahii" || S == "yahjj" || S == "yahkk" || S == "yahll"
@@ -14,7 +15,7 @@ int main() {
       || S == "yahyy" || S == "yahzz") {
     cout << "YES" << endl;
   }
-  //推奨コード
+  //解答コード
   //if(S.substr(0, 3) == "yah" && S[3] == S[4])
   else {
     cout << "NO" << endl;

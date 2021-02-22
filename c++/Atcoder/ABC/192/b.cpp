@@ -5,11 +5,24 @@ int main() {
   string S;
   cin >> S;
   
-  
-  //奇数番目
-  for (int i = 0; i < S.size; i += 2) {
-    if (islower(S[i])) cout << 100 - (X % 100) << endl;
-    else cout << 100 << endl;
-
-    
-  }//if (islower(s))
+  bool a;
+  bool b;
+  //先頭から偶数番目（添字iから奇数番目）
+  for (int i = 1; i < S.size(); i += 2) {
+    if (isupper(S[i])) a = true;
+    else {
+      a = false;
+      break;
+    }
+  }
+  //先頭から奇数番目(添字iから偶数番目)
+  for (int i = 0; i < S.size(); i += 2) {
+    if (islower(S[i])) b = true;
+    else {
+      b = false;
+      break;
+    }
+  }
+  if (a == true & b == true) cout << "Yes" << endl;
+  else cout << "No" << endl;
+}

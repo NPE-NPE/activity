@@ -21,3 +21,12 @@ int main() {
   else cout << "NO" << endl;
  
 }
+
+//本書のコード
+int main(){
+2 string A, B, C;
+3 cin >> A >> B >> C;
+4 if(A[A.size()-1] == B[0] && B[B.size()-1] == C[0]){
+5 cout << "YES" << endl;
+6 }
+7 else cout << "NO" << endl;

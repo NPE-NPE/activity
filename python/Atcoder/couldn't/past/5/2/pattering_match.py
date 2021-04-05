@@ -1,3 +1,4 @@
+#未解決
 #自分のコード（関数）
 def is_match(T, S):
   for i in range(0, len(S)):
